@@ -68,7 +68,7 @@ NUM_PIXEL    = 24
 PIXEL_PIN    = board.D2
 
 SERVO_PIN    = board.D0
-SERVO_STOP   = -0.05
+SERVO_STOP   = -0.10
 SERVO_GO     = -0.15
 
 TOUCH_PIN    = board.D1
@@ -88,6 +88,7 @@ servo    = servo.ContinuousServo(pwm)               # servo-motor control object
 # --- initialization   ----------------------------------------------------
 
 active         = True
+print("setting throttle to %r" % SERVO_GO)
 servo.throttle = SERVO_GO
 dfplayer.play()
 time.sleep(0.200)
@@ -103,7 +104,7 @@ while True:
   
   if touch.value:
     print("registered touch")
-    time.sleep(0.1)                # debounce
+    time.sleep(0.2)                # debounce
     if active:
       print("stopping neopixels, music and servo")
       active         = False
