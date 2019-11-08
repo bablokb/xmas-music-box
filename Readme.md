@@ -79,3 +79,14 @@ Copy the contents of the directory `uart/files` to your Trinket and add the
 required libraries.
 
 In `uart/doc` you will find the required wiring.
+
+
+Notes
+-----
+
+You really have to play around with the throttle-values for servo-motor. They
+depend on your power supply and the load you put on the motor.
+
+In the Fritzing diagrams the DFPlayer-mini is one row wider than in reality.
+I can't tell if this is an error of the Fritzing-part or if there are
+different versions of the player around.
