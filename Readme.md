@@ -3,7 +3,8 @@ A music box for Christmas
 
 
 This is a music box for Christmas with lights, a turning figure and 
-music: [![angel.mp4](media/angel.png)](media/angel.mp4 "Rotating Angel")
+music (the image links to a video, use the context-menu to save and
+play it): [![angel.mp4](media/angel.png)](media/angel.mp4 "Rotating Angel")
 
 It is  based on the following components:
 
