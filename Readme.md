@@ -2,7 +2,8 @@ A music box for Christmas
 =========================
 
 
-This is a music box for Christmas with lights, a turning figure and music.
+This is a music box for Christmas with lights, a turning figure and 
+music: [![angel.mp4](media/angel.png)](media/angel.mp4 "Rotating Angel")
 
 It is  based on the following components:
 
@@ -48,6 +49,8 @@ Used M0-Pins:
   - 3: Attached to the busy-pin of the player
   - 4: Configured as capacitive input-button for turning everything on and off
 
+![](simple/doc/Trinket-M0+DFPlayer.png "wiring on a perfboard")
+
 Copy the contents of the directory `simple/files` to your Trinket and add the
 required libraries.
 
@@ -74,6 +77,8 @@ Used M0-Pins:
   - 2: Data-pin of the NeoPixel-ring
   - 3: uart-RX
   - 4: uart-TX
+
+![](uart/doc/Trinket-M0+DFPlayer-UART.png "wiring on a perfboard")
 
 Copy the contents of the directory `uart/files` to your Trinket and add the
 required libraries.
